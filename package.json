@@ -1,0 +1,15 @@
+{
+	"name": "volunteercloud",
+	"description": ".",
+	"maintainers": [
+		{
+			"name": "Michal Zochniak"
+		}
+	],
+	"dependencies": {
+		"request": "",
+		"deep-equal": "",
+		"formidable": "",
+		"cradle": ""
+	},
+}
