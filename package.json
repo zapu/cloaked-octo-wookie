@@ -10,6 +10,10 @@
 		"request": "",
 		"deep-equal": "",
 		"formidable": "",
-		"cradle": ""
-	},
+		"cradle": "",
+		
+		"node-bittorrent-tracker": "git+https://github.com/WizKid/node-bittorrent-tracker.git",
+		"node-torrent": "git+https://github.com/superafroman/node-torrent.git",
+		"note-dot-torrent": "git+https://github.com/fent/node-torrent"
+	}
 }
