@@ -4,3 +4,4 @@
 node_modules/*
 !node_modules/marketd
 !node_modules/workerd
+!node_modules/simulator
