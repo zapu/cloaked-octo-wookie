@@ -28,7 +28,7 @@ reportError = function(err) {
 }
 
 tryWork = function() {
-  request('http://192.168.56.2:8090/getWork', workReceived);
+  request('http://192.168.56.1:8090/getWork', workReceived);
 }
 
 workReceived = function(err, response, body) {
@@ -44,7 +44,7 @@ workReceived = function(err, response, body) {
 
 doWork = function(obj) {
   var result = primes(obj);
-  postRequest('http://192.168.56.2:8090/submitWork', {}, 
+  postRequest('http://192.168.56.1:8090/submitWork', {}, 
     { data: 
       { 
         data: JSON.stringify(result),
